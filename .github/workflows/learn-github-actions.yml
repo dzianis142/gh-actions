@@ -13,6 +13,6 @@ jobs:
       - name: get repository code
         uses: actions/checkout@v3
       - name: install
-        run: sudo apt update && upgrade -y
+        run: apt update && upgrade -y
 
 
