@@ -8,6 +8,6 @@ jobs:
       - name: Print to console
         run: echo "Hello"
       - name: print user name
-        run: whoami
-             ${PWD}
+        run: echo "$USER"
+             echo "$PWD"
 
